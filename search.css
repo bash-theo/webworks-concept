@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.search-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.searchbox-container {
+    background-color: #dacf67;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.searchbox-container a {
+    font-family: "Comfortaa", cursive;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 100% - 15;
+    display: block;
+    background-color: white;
+}
+
+.search-container a {
+    flex: auto;
+    font-family: "Comfortaa", cursive;
+    font-size: 24px;
+    display: inline-flex;
+    border-bottom:#dacf67 5px solid;
+    align-items: center;
+}
+
+.search-container img {
+    flex: 30%;
+    margin: 0px;
+    padding: 0px;
+    height: 161.25px;
+    border-right: #dacf67 5px solid;
+}
+
+.search-container p {
+    flex: 70%;
+    text-align: center;
+}
