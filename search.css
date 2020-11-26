@@ -29,16 +29,16 @@
     font-family: "Comfortaa", cursive;
     font-size: 24px;
     display: inline-flex;
-    border-bottom:#dacf67 5px solid;
+    border-bottom: #dacf67 5px dashed;
     align-items: center;
 }
 
 .search-container img {
     flex: 30%;
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
     height: 161.25px;
-    border-right: #dacf67 5px solid;
+    border-radius: 250px;
 }
 
 .search-container p {

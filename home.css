@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 .post-container {
-    border-bottom: #dacf67 5px solid;
+    border-bottom: #dacf67 5px dashed;
     display: block;
     padding: 15px;
     font-family: "Comfortaa", cursive;
@@ -14,8 +14,9 @@
 
 .post-container .top img {
     border-radius: 75px;
-    padding: 10px;
+    padding: 5px;
     width: 60px;
+    border: #dacf67 5px solid;
 }
 
 .post-container .top p {
