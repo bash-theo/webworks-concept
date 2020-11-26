@@ -29,7 +29,7 @@
     font-family: "Comfortaa", cursive;
     font-size: 24px;
     display: inline-flex;
-    border-bottom: #dacf67 5px dotted;
+    border-bottom: #dacf67 5px dashed;
     align-items: center;
 }
 
