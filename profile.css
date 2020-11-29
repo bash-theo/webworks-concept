@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.profile-top {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-family: "Comfortaa", cursive;
+    border-bottom: #dacf67 5px dashed;
+}
+
+.profile-top img {
+    border-radius: 75px;
+    padding: 5px;
+    margin-right: 20px;
+    width: 120px;
+    border: #dacf67 5px solid;
+}
+
+.profile-top div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-top p {
+    flex: 100%;
+    display: block;
+    text-align: center;
+    color: darkgray;
+    margin: 16px 0px;
+    font-size: 36px;
+}
+
+.profile-top button {
+    margin: 0px;
+    flex: 100%;
+    background-color: #dacf67;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 200px;
+    color: white;
+    border-width: 0px;
+    font-weight: bold;
+    font-family: "Comfortaa", cursive;
+}
